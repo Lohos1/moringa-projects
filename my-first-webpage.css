@@ -17,3 +17,24 @@ ul {
   line-height: 40px;
   text-decoration: underline%;
 }
+img {
+  width: 800px;
+  height: 600px;
+}
+table {
+  text-align: center;
+  font-style: normal;
+  border: collapse;
+  font-family: sans-serif;
+}
+td, th {
+  border: 1px solid #0DF4CA;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background: #0DF4CA;
+}
+tr td:hover {
+background: #F4A40D 
+}
