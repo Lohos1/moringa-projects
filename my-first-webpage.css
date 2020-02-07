@@ -1,13 +1,17 @@
 h1 {
-  color: #07F6CA;
   text-align: center;
-  background-color: orange;
+  background-color: #260d0d;
   text-shadow: 10px;
 }
 h2 {
-  color: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right;
+  font-style: bold;
   text-align: center;
-  font-style: italic;
+}
+body {
+  background-color: #07B381;
+}
+.red {
+  color: red;
 }
 p {
   font-family: sans-serif;
@@ -17,24 +21,77 @@ ul {
   line-height: 40px;
   text-decoration: underline%;
 }
-img {
-  width: 800px;
-  height: 600px;
-}
-table {
+
+                  table {
+                    text-align: center;
+                    font-style: normal;
+                    border: collapse;
+                    font-family: sans-serif;
+                            }
+          td, th {
+            border: 1px solid #0DF4CA;
+            text-align: left;
+            padding: 8px;
+          }
+              tr:nth-child(even) {
+                background-color: #66001a;
+              }
+              td:nth-child(4n+1) {
+                background-color: #07563F;
+              }
+              td:nth-child(4n+2) {
+                background-color: #073B2C;
+              }
+              td:nth-child(4n+3) {
+                background-color: #78A713;
+              }
+        tr td:hover {
+        background: #F4A40D
+        }
+.submit {
+  padding: 5px 5px;
+  font-size: 24px;
   text-align: center;
-  font-style: normal;
-  border: collapse;
-  font-family: sans-serif;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 5px #999
 }
-td, th {
-  border: 1px solid #0DF4CA;
-  text-align: left;
-  padding: 8px;
+.submit:hover {
+  background-color: #3e8e41
 }
-tr:nth-child(even) {
-  background: #0DF4CA;
+.submit:active {
+  background-color: yellow;
+  box-shadow: 0 3px grey;
+  transform: translate3d();
 }
-tr td:hover {
-background: #F4A40D 
+
+img {
+  float: right;
+}
+.sidebar {
+  width: 20%;
+  float: right;
+}
+.img {
+  background-image: url("mine.png");
+  height: 100$;
+  width: 100$;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.test-box {
+  border: 2px solid #714B04 ;
+  border-top: 4px solid #000E0A ;
+  border-bottom: 6px solid #011912;
+  border-left: 6px solid #022219;
+  border-right: 6px solid #01140E;
+background-image: url("ok.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: scroll;
+height: 200px;
+margin-top: 0px;
+  padding: 6px;
+  top: 0px;
 }
